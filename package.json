@@ -4,7 +4,8 @@
   "main": "dist/main.js",
   "scripts": {
     "build": "tsc",
-    "start": "tsnd  --respawn --clear --transpile-only ./src/main.ts"
+    "start": "tsnd  --respawn --clear --transpile-only ./src/main.ts",
+    "sonar": "sonar-scanner"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "@types/body-parser": "^1.19.5",
     "@types/express": "^4.17.21",
     "@types/multer": "^1.4.11",
+    "sonarqube-scanner": "^4.2.7",
     "ts-node-dev": "^2.0.0",
     "typescript": "4"
   }
